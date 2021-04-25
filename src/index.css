@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#BootButton{
+  position: absolute;
+  left:0;
+}
+#card{
+  box-sizing: border-box;
+  padding-left: 1%;
+}
+#Input{
+  height: 100vh;
+  background-image: url('D:\Algorthims\React-PhoneBook\phonebook\src\pexels-aleksandar-pasaric-325185.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#inputData{
+  padding-left: 10px;
+  background: transparent;
+  border-radius: 10px;
+  margin-top: 18%;
+  margin-left: 42%;
+  height: 50px;
+  border: 1px solid black;
+}
+#Input button{
+  margin-left: 1%;
+  border-radius: 20px;
+  height: 53px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#WeatherApp{
+  color: white;
+  height: 100vh;
+  background-image: url('D:\Algorthims\React-PhoneBook\phonebook\src\New.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#MainTab{
+  height: 350px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+#basic{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  width: 20%;
+}
+#basic img{
+  width: 40%;
+  height: 30%;
+  margin-right: 5%;
+}
+#CityName{
+  box-sizing: border-box;
+  padding-left: 6%;
+  margin-top: 2%;
+  width: 20%;
+  margin-left: 50%;
+}
+#DownTab{
+  display: flex;
+  flex-direction: row;
+}
+#card{
+  width: 10%;
+  height: 210px;
+  margin-top: 1%;
+  margin-left: 1%;
+  border: 1px solid black;
+}
+@media screen and (max-width:500px) {
+  #Input{
+    height: 100vh;
+    background-image: url('D:\Algorthims\React-PhoneBook\phonebook\src\pexels-aleksandar-pasaric-325185.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #inputData{
+    padding-left: 10px;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 40%;
+    margin-left: 15%;
+    height: 50px;
+    border: 1px solid black;
+  }
+  #Input button{
+    margin-left: 1%;
+    border-radius: 20px;
+    height: 53px;
+  }
+  #WeatherApp{
+    color: white;
+    height: 800px;
+    background-image: url('D:\Algorthims\React-PhoneBook\phonebook\src\New.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #basic{
+    border: 1px solid black;
+    width: 40%;
+    margin-top: 2%;
+    display: flex;
+    padding-left: 2%;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  #basic img{
+    width: 100%;
+    height: 40%;
+    margin-right: 5%;
+  }
+  #CityName{
+    box-sizing: border-box;
+    padding-left: 6%;
+    margin-top: 2%;
+    width: 20%;
+    margin-left: 10%;
+  }
+}
